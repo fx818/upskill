@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(63, 105, 243), rgb(103, 143, 218));
+}
+
+.navbar {
+    position: sticky;
+    padding: 1rem 1rem 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    /* justify-content: end; */
+    align-items: center;
+}
+
+#main-logo {
+    color: white;
+    font-size: 4rem;
+}
+
+.navbar-items {
+    /* border: 1px solid blue; */
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+
+}
+
+.nav-centre {
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 0px 1rem 0rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: fit-content;
+}
+
+.navbar-items input {
+    margin-left: 2rem;
+    /* justify-content: end; */
+    /* align-items: center; */
+    width: 15rem;
+    height: 1.5rem;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid white;
+}
+
+.navbar-items input::placeholder {
+    color: white;
+    font-size: 0.9rem;
+
+}
+
+.content-area {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.news {
+    position: sticky;
+    border: 2px solid white;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#news-1 {
+    padding: 0.2rem;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#news-2 {
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.articles {
+    text-align: left;
+    padding: 1rem;
+}
+
+#schedule {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 0.5rem;
+    /* margin-left: 2rem; */
+    border-radius: 10px;
+    /* border: 1px solid white; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+
+}
+
+.day {
+    /* border: 2px solid white; */
+    /* height: fit-content; */
+
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.classes {
+    /* border-top: 1px solid white; */
+    /* border-bottom: 1px solid white; */
+    /* background-image: linear-gradient(to right, orange, pink); */
+}
+
+.days {
+
+    display: grid;
+    grid-template-rows: repeat(4, 50px);
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+#mix {
+    margin: 0.5rem;
+    /* padding: 1rem; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.internal {
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.attendance input {
+    list-style-type: none;
+    background-image: linear-gradient(to right, rgb(61, 98, 219), rgb(64, 92, 145));
+    margin-top: 2rem;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.attendance input::placeholder {
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+}
+#submit-attendance{
+    height: 2rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(61, 98, 219), rgb(64, 92, 145));
+    border: 0;
+    color: white;
+    width: 7rem;
+    font-size: 1rem;
+}
+#datee{
+    /* width: 19rem; */
+    font-size: large;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+
+
+#content-2 {
+    margin-left: 2rem;
+    /* height: 10vh; */
+}
